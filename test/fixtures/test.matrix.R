@@ -1,9 +1,10 @@
-options( digits = 16 );
-library( jsonlite );
+options( digits = 16 )
+library( jsonlite )
+library( pscl )
 
 alpha = 1
 beta = 1
-x = 0:24
+x = 1:25
 y = densigamma( x, alpha,beta )
 
 cat( y, sep = ",\n" )
